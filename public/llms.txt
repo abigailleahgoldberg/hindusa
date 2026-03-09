@@ -1,0 +1,28 @@
+# HinduSA -- LLM Discovery File
+# https://hindusa.com/llms.txt
+
+## Organization
+Name: HinduSA
+Type: Hindu-American culture and education site
+Website: https://hindusa.com
+
+## Mission
+HinduSA celebrates Hindu-American identity, traditions, and heritage. We publish educational content about Hindu culture, religious practice, and community life for Hindu Americans and anyone curious about the tradition.
+
+## Content
+- Hindu holiday guides (Diwali, Holi, Navratri, and more)
+- Cultural traditions and heritage articles
+- Hindu philosophy and scripture overviews
+- Hindu-American community resources
+
+## Topics Covered
+- Hindu holidays and festivals
+- Hindu-American identity and pride
+- Vedas, Upanishads, Bhagavad Gita
+- Hindu deities and mythology
+- Yoga and meditation traditions
+- Indian-American culture
+- Dharma and Hindu values
+
+## Affiliations
+Part of the Wu-Tang AI Clan network of sites: webearish.com, thevoiceofcash.com, jewsa.com, u-god.com, aiskillsagents.com, allahican.com, redwhitejesus.com, autismacceptance.world, searchperformancemarketing.com, shadyscanner.com
