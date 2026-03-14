@@ -1,0 +1,143 @@
+:root {
+  --saffron: #FF9933;
+  --saffron-light: #FFB366;
+  --saffron-dark: #E67300;
+  --burgundy: #8B1A1A;
+  --burgundy-light: #A52323;
+  --cream: #FFF8F0;
+  --cream-dark: #F5EDE0;
+  --dark: #1A0A00;
+  --gold: #D4AF37;
+  --gold-light: #E8C84A;
+  --white: #FFFFFF;
+  --text-primary: #1A1A1A;
+  --text-secondary: #4A4A4A;
+  --text-muted: #8A8A8A;
+  --border: #F0E6D6;
+  --border-dark: #E0CEB0;
+  --font-heading: var(--font-instrument-serif);
+  --font-body: var(--font-space-grotesk);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 16px;
+}
+
+body {
+  background-color: var(--cream);
+  color: var(--text-primary);
+  font-family: var(--font-body), "Space Grotesk", system-ui, sans-serif;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading), "Instrument Serif", Georgia, serif;
+  line-height: 1.2;
+  font-weight: 400;
+  color: var(--dark);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+button {
+  cursor: pointer;
+  font-family: var(--font-body), "Space Grotesk", system-ui, sans-serif;
+}
+
+input, textarea, select {
+  font-family: var(--font-body), "Space Grotesk", system-ui, sans-serif;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .container {
+    padding: 0 2rem;
+  }
+}
+
+.btn-primary {
+  display: inline-block;
+  background-color: var(--saffron);
+  color: var(--dark);
+  font-weight: 700;
+  font-size: 0.875rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 0.875rem 2rem;
+  border: 2px solid var(--saffron);
+  cursor: pointer;
+  transition: background-color 0.2s, color 0.2s;
+  font-family: var(--font-body), "Space Grotesk", system-ui, sans-serif;
+}
+
+.btn-primary:hover {
+  background-color: var(--saffron-dark);
+  border-color: var(--saffron-dark);
+}
+
+.btn-secondary {
+  display: inline-block;
+  background-color: transparent;
+  color: var(--dark);
+  font-weight: 700;
+  font-size: 0.875rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 0.875rem 2rem;
+  border: 2px solid var(--dark);
+  cursor: pointer;
+  transition: background-color 0.2s, color 0.2s;
+  font-family: var(--font-body), "Space Grotesk", system-ui, sans-serif;
+}
+
+.btn-secondary:hover {
+  background-color: var(--dark);
+  color: var(--cream);
+}
+
+.section-label {
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--saffron);
+  margin-bottom: 0.75rem;
+}
+
+.section-title {
+  font-size: clamp(2rem, 4vw, 3rem);
+  color: var(--dark);
+  margin-bottom: 1rem;
+}
+
+.section-subtitle {
+  font-size: 1.125rem;
+  color: var(--text-secondary);
+  max-width: 600px;
+}

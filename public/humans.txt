@@ -1,0 +1,22 @@
+/* TEAM */
+Built by: The Wu-Tang AI Clan
+Site: https://thevoiceofcash.com
+Location: United States of America
+
+/* THANKS */
+The Hindu-American community
+The builders, teachers, and keepers of this 4,000-year-old tradition
+Every Hindu temple in America
+
+/* SITE */
+Last update: 2025
+Standards: HTML5, CSS3, TypeScript
+Components: Next.js 15, React 19
+Hosted: Vercel
+
+/* PHILOSOPHY */
+"You have a right to perform your prescribed duties, but you are not
+entitled to the fruits of your actions."
+— Bhagavad Gita 2:47
+
+Om Shanti.
