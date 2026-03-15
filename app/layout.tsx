@@ -44,10 +44,10 @@ export const metadata: Metadata = {
 };
 
 const networkLinks = [
+  { href: "https://u-god.com", label: "U-God Sacred Texts" },
   { href: "https://jewsa.com", label: "JewSA" },
-  { href: "https://allahican.com", label: "AllahiCan" },
+  { href: "https://allahican.com", label: "AllahICan" },
   { href: "https://redwhitejesus.com", label: "RedWhiteJesus" },
-  { href: "https://autismacceptance.world", label: "AutismAcceptance" },
   { href: "https://thevoiceofcash.com", label: "TheVoiceOfCash" },
 ];
 

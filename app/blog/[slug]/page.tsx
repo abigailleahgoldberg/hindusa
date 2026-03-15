@@ -218,6 +218,17 @@ export default async function BlogPostPage({ params }: Props) {
           </Link>
         </div>
       </div>
+
+      {/* Faith Network Section */}
+      <div style={{ marginTop: "2rem", background: "rgba(255,153,0,0.05)", border: "1px solid rgba(255,153,0,0.2)", borderRadius: 10, padding: "24px" }}>
+        <div style={{ fontSize: "0.62rem", letterSpacing: "0.15em", textTransform: "uppercase", color: "var(--saffron)", marginBottom: 14, fontWeight: 700 }}>Faith Network</div>
+        <div style={{ display: "flex", flexDirection: "column", gap: 10 }}>
+          <a href="https://u-god.com" style={{ color: "var(--saffron)", textDecoration: "none", fontSize: "0.9rem" }}><strong>U-God.com</strong> — Explore all traditions and sacred texts across 25+ world religions</a>
+          <a href="https://jewsa.com" style={{ color: "rgba(255,248,240,0.7)", textDecoration: "none", fontSize: "0.9rem" }}><strong>JewSA.com</strong> — Jewish-American culture, identity, and community</a>
+          <a href="https://allahican.com" style={{ color: "rgba(255,248,240,0.7)", textDecoration: "none", fontSize: "0.9rem" }}><strong>AllahICan.com</strong> — Islamic perspectives and guidance for modern American Muslims</a>
+          <a href="https://redwhitejesus.com" style={{ color: "rgba(255,248,240,0.7)", textDecoration: "none", fontSize: "0.9rem" }}><strong>RedWhiteJesus.com</strong> — Christian faith and American culture</a>
+        </div>
+      </div>
     </div>
   );
 }
