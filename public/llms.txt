@@ -49,6 +49,18 @@ Part of the The Voice of Cash Team network of culture sites:
 - searchperformancemarketing.com — SEO agency
 - shadyscanner.com — AI tools
 
+## Blog Posts
+- Diwali in America: How Hindu Families Celebrate the Festival of Lights
+- Hindu Americans Who Changed the World: From NASA to Silicon Valley
+- A Beginner's Guide to Hindu Holidays and What They Mean
+- The Bhagavad Gita in 10 Minutes: What Every American Should Know
+- Why Yoga Is Just the Beginning: Understanding Hindu Philosophy
+- Hindu Temples Across America: A State-by-State Guide
+- Karma, Dharma, and the American Dream
+- Diwali Across America: How Different Cities Celebrate the Festival of Lights
+- The Bhagavad Gita at Work: Ancient Wisdom for Modern Career Decisions
+- Hindu Temples You Can Visit in Every US State
+
 ## Technical
 - Built with Next.js 15, React 19, TypeScript
 - Deployed on Vercel

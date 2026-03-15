@@ -519,6 +519,183 @@ Karma yoga and the American work ethic are not the same thing. But they rhyme. A
 
 That's what HindUSA is here for.`,
   },
+  {
+    slug: "diwali-across-america-cities-celebrate",
+    title: "Diwali Across America: How Different Cities Celebrate the Festival of Lights",
+    subtitle: "From Edison, New Jersey to Houston, Texas, Diwali has become one of America's most vibrant public celebrations.",
+    date: "2026-03-15",
+    author: "HindUSA Editorial",
+    readTime: "8 min read",
+    category: "Culture",
+    excerpt: "Diwali is no longer a quiet family observance in America. It has exploded into public life across the country, and every major city celebrates it differently.",
+    content: `Diwali has arrived in American public life. What was once a holiday observed primarily within Hindu households has become a fixture of civic calendars, a subject of official proclamations, and a reason for city streets to fill with color, light, and the smell of mithai in cities from New York to Los Angeles.
+
+The way it looks differs significantly by city, shaped by which South Asian communities settled where, what resources they built, and how the surrounding civic culture has responded to their presence. Here is how four major American cities celebrate the Festival of Lights.
+
+## New York City: Edison's Oak Tree Road and the Five Boroughs
+
+New York City's most dramatic Diwali celebration happens not in Manhattan but in Edison, New Jersey, just across the state line, where Oak Tree Road has been the center of South Asian American life in the New York metropolitan area for decades.
+
+For the days surrounding Diwali, Oak Tree Road transforms. Vendors line the street selling sarees, sweets, puja supplies, and everything a family needs to celebrate properly. Bhangra dancers perform outdoors. The smell of jalebis and samosas fills the air for blocks. Tens of thousands of people come from across the region, including many who are not South Asian but who have learned that this is one of the most spectacular street celebrations in the metropolitan area.
+
+Within New York City itself, the South Asian communities of Jackson Heights in Queens, Flushing, and parts of the Bronx hold their own celebrations. The city of New York declared Diwali a public school holiday in 2023, acknowledging what the population of the city's schools had been reflecting for years: this is a significant holiday for a significant portion of the community.
+
+The Hindu Temple Society of North America in Flushing — the Ganesh Temple — draws thousands for special Diwali puja. The ornate interior of the temple, with its South Indian gopuram architecture and its constant flow of devotees, becomes even more vibrant in the days surrounding the festival.
+
+## Los Angeles: The Temple in Malibu and the South Bay
+
+Los Angeles Diwali celebrations reflect the city's geography: spread across dozens of distinct communities, organized around temples and cultural organizations rather than a single concentrated neighborhood.
+
+The Venkateswara Temple in Malibu, which sits on a hillside above the Pacific Ocean, is one of the most architecturally striking Hindu temples in the country. Its Diwali celebration draws devotees from across Southern California for a day of puja, cultural performances, and the communal experience of marking the holiday together. The setting — the illuminated temple against the hills, with the ocean visible in the distance — is unlike any Diwali experience available elsewhere in the country.
+
+The communities of Artesia in Los Angeles County and Fremont in the Bay Area function as the Little India corridors of their respective regions, and both become centers of Diwali activity in October and November. The restaurants, clothing stores, sweet shops, and jewelry stores that line these commercial corridors transform for the season.
+
+## Houston: The Largest Diwali Celebration in the South
+
+Houston hosts what may be the largest Diwali celebration in the American South, reflecting the city's status as a major hub for South Asian immigration. The Diwali Mela organized by various Indian cultural organizations draws tens of thousands of attendees, with outdoor performances, food vendors, fireworks, and artisan markets that reflect the diversity of South Asian culture.
+
+Houston's Hindu community is anchored by institutions including the Shree Raseshwari Radha Rani Temple and several other major temples that hold elaborate Diwali observances. The celebration has also been embraced by the city's civic culture: Houston's City Hall has been lit up for Diwali, and the mayor's office regularly participates in official Diwali events.
+
+The scale of Houston's South Asian community — one of the largest in the country — means that Diwali here has the critical mass to be a truly public celebration rather than a community-specific event. Local television stations cover it. The Houston Chronicle writes about it. It is part of the city's calendar.
+
+## Chicago: Lighting Up the North Shore
+
+Chicago's Diwali celebrations are anchored in the North Shore suburbs — Skokie, Evanston, and the communities along the I-94 corridor — where a substantial Hindu and South Asian population has built temple infrastructure and cultural institutions over several decades.
+
+The Hindu Temple of Greater Chicago in Lemont, one of the largest Hindu temples in the Midwest, holds elaborate Diwali celebrations that draw from across the region. The temple's campus, which can accommodate thousands of visitors, becomes a center of activity for the festival, with cultural performances, food, and extended puja services.
+
+The Chicago suburb of Devon Avenue, known as the South Asian commercial corridor of the city, also marks Diwali with decorated storefronts and events that draw visitors from across the metropolitan area. While Devon Avenue is associated primarily with the South Asian Muslim community, the shared culture of the subcontinent means that Diwali touches the street in ways that reflect the full complexity of South Asian American identity.
+
+## What the National Moment Means
+
+The public visibility of Diwali across American cities represents something real about the transformation of the country's cultural landscape. Three million Hindu Americans, concentrated in the regions where technology, medicine, and academia have drawn South Asian immigrants, have built institutions and established cultural presence that has made their most important holiday visible in ways that were not possible a generation ago.
+
+The White House has hosted Diwali celebrations. State legislatures across the country have passed resolutions recognizing the holiday. School districts have begun adding it to calendars. The direction of travel is clear: Diwali is becoming part of the American calendar in the same way that other immigrants' holidays have become part of the American calendar over time.
+
+This is not dilution. The families who celebrate Diwali in Edison or Houston or Chicago are performing the same five-day sequence of rituals, lighting the same diyas, making the same sweets, and performing the same Lakshmi puja that their parents and grandparents performed in India. What has changed is that they are doing it in public, with their neighbors watching, in cities that are learning to see them.`,
+  },
+  {
+    slug: "bhagavad-gita-work-career-decisions",
+    title: "The Bhagavad Gita at Work: Ancient Wisdom for Modern Career Decisions",
+    subtitle: "The field of Kurukshetra is your inbox. Here is what Krishna's teaching to Arjuna actually says about duty, detachment, and doing your best work.",
+    date: "2026-02-10",
+    author: "HindUSA Editorial",
+    readTime: "9 min read",
+    category: "Philosophy",
+    excerpt: "The Bhagavad Gita's teaching on action without attachment is the most practical career advice you have never received. Here is how it applies to the decisions in front of you.",
+    content: `The Bhagavad Gita is set on a battlefield. Arjuna is a warrior facing the most consequential decision of his life, surrounded by enemies who are also his family, uncertain about whether doing his duty is worth the cost. His charioteer, who is Krishna in human form, spends 700 verses telling him how to think about this.
+
+The business school interpretation of the Gita focuses on nishkama karma: action without attachment to results. Do the work fully. Release the outcome. It is excellent advice for managing expectations. It is also incomplete. The Gita has more specific things to say about work and about the decisions that define careers.
+
+**On Dharma: Your Duty in the Context You Are Actually In**
+
+The central concept in the Gita is not karma. It is dharma, and dharma is specific. It is not a general instruction to be virtuous. It is your particular obligation given who you are, what role you occupy, and what the situation actually requires.
+
+Arjuna is a warrior. His dharma in this situation is to fight. He is not called to become a philosopher or a monk, even though those might seem like more peaceful paths. He is called to do what the situation requires of the person he actually is.
+
+The application to career decisions is direct. Your dharma is not someone else's dharma. The correct career path for your colleague is not necessarily the correct career path for you. The Gita does not counsel everyone to pursue the same virtuous career. It counsels everyone to understand their particular obligations — to their skills, to the people who depend on them, to the work that is genuinely theirs to do — and to pursue those obligations with full effort.
+
+This is harder than it sounds. Identifying your actual dharma requires the kind of self-knowledge that is uncomfortable to develop. It means being honest about what you are genuinely capable of, what you actually care about, and what role you are positioned to fill. The Gita does not promise that this will be the most prestigious role available. It promises that doing your actual duty is more valuable than performing someone else's.
+
+**On Nishkama Karma: The Release That Makes Excellence Possible**
+
+The instruction to act without attachment to results is usually understood as psychological advice: stop worrying about outcomes. That is part of it. But the deeper teaching is structural.
+
+When you are attached to a specific outcome, your decision-making is distorted by that attachment. You hold positions past their usefulness because reversing them would feel like failure. You avoid necessary conversations because they might produce results you don't want. You optimize for the outcome rather than for the quality of the action itself, and the outcome suffers because of it.
+
+Nishkama karma is not passivity. Arjuna fights the battle with full effort. The instruction is about what motivates the effort. When the effort is motivated by the desire for a specific result, the effort is constrained by that desire. When the effort is motivated by the nature of the duty itself — because this is what the situation requires, because this is what my role calls for — the effort becomes cleaner and usually more effective.
+
+The practical application in career terms: make the decision that is actually right for the situation, not the decision that will produce the outcome you want to produce. Give the honest assessment, not the assessment that will make everyone comfortable. Do the work that the problem requires, not the work that will make you look best.
+
+**On the Three Modes: Understanding Why Some Days Are Hard**
+
+The Gita describes three gunas — modes or qualities that pervade all of nature, including human psychology. Tamas is inertia, darkness, and the tendency toward avoidance. Rajas is activity, passion, and the tendency toward restlessness. Sattva is clarity, balance, and the capacity to see things as they actually are.
+
+All three are always present. What varies is which predominates. A predominantly tamasic day is one where nothing seems worth the effort and the easiest path is to avoid everything difficult. A predominantly rajasic day is one where there is a lot of energy but the energy is undirected — busy but not productive, stimulated but not focused. A sattvic state is one where the mind is clear, the priority is evident, and the work flows.
+
+The Gita does not suggest that you can simply choose sattva. But it does suggest that certain practices cultivate it and certain practices undermine it. Sleep, diet, the kinds of tasks you engage with, the company you keep — all of these affect which guna predominates. A career built on rajasic striving, with no cultivation of sattvic clarity, will eventually exhaust itself.
+
+**On Equanimity: The Skill That Everything Else Depends On**
+
+The Gita's word for the quality that makes everything else possible is samatvam — equanimity. This is not the same as indifference. It is the capacity to remain oriented and functional regardless of whether the current moment is going well or badly.
+
+The manager who becomes destabilized by every difficult conversation will eventually avoid difficult conversations. The founder who is elated by every positive signal and devastated by every negative one will make worse decisions than the founder who maintains equanimity across both. The professional who requires favorable conditions to do good work is dependent in a way that limits them.
+
+Equanimity is cultivated, not assumed. The Gita suggests that the practices of yoga — including meditation, study, and the deliberate development of non-attachment — are the means by which equanimity develops. This is not a passive process. It requires the same kind of deliberate effort that any skill requires.
+
+**The Field That Is Your Work**
+
+Arjuna's field is Kurukshetra. Yours is the particular context in which you work — the organization, the team, the problems that are yours to engage with. The Gita's instruction is consistent: do what the situation actually requires, bring full effort to it, release the attachment to specific outcomes, and develop the clarity and equanimity to see the situation as it actually is.
+
+None of this is easy. The Gita does not pretend it is. Arjuna nearly refuses to fight because doing his duty will cost him enormously. Krishna's response is not to minimize the cost. It is to situate the cost in a larger frame and to insist that refusing to act has its own costs, which are also real.
+
+Your work is worth doing well. The Gita is among the most sustained arguments ever made for that proposition.`,
+  },
+  {
+    slug: "hindu-temples-every-us-state-guide",
+    title: "Hindu Temples You Can Visit in Every US State",
+    subtitle: "More than 1,000 temples serve the 3.2 million Hindu Americans across the country. Here is your guide to finding them — and what you will find when you do.",
+    date: "2026-01-05",
+    author: "HindUSA Editorial",
+    readTime: "10 min read",
+    category: "Community",
+    excerpt: "The first Hindu temple in America opened in 1906. Today there are more than 1,000 across all 50 states. Here is how to find the ones near you and what to expect when you visit.",
+    content: `The first Hindu temple built specifically for worship in the United States opened in San Francisco in 1906, serving a small community of Indian immigrants who had made their way to the West Coast. In the century since, the Hindu American community has grown to 3.2 million people, and the temple infrastructure that serves that community has grown accordingly. Today there are more than 1,000 Hindu temples across the country, in every state, ranging from elaborate South Indian temple complexes to simple converted storefronts that serve small regional communities.
+
+Finding a Hindu temple near you is easier than it has ever been, and visiting one — whether you are Hindu, curious, or somewhere between the two — is one of the most accessible encounters with living religious tradition available in America.
+
+**The Northeast: Concentrated and Elaborate**
+
+The northeastern corridor from New York City to Boston contains one of the highest concentrations of Hindu Americans in the country, and the temple infrastructure reflects this.
+
+The Hindu Temple Society of North America in Flushing, Queens, commonly known as the Ganesh Temple, is among the most important Hindu temples in the United States. Dedicated to Lord Ganesha, it was established in 1977 and has served as a community anchor for the large South Asian population of Queens for nearly five decades. The temple offers daily worship, community programs, and cultural events throughout the year.
+
+New Jersey's temple landscape is defined by the massive Bochasanwasi Akshar Purushottam Sanstha Swaminarayan temple in Robbinsville, completed in 2014. Built with Turkish limestone and Italian marble, featuring stone carvings created by artisans trained in traditional techniques, the temple is one of the most architecturally significant Hindu temples in the Western Hemisphere. It draws visitors from across the region and around the world.
+
+Connecticut, Massachusetts, and Pennsylvania all have active temple communities. The Sri Lakshmi Temple in Ashland, Massachusetts, established in 1978, is one of the oldest in New England and a community center for the region's Hindu population.
+
+**The South: Texas and Georgia Lead**
+
+Texas hosts one of the largest Hindu American communities in the country, and the temple infrastructure reflects this. The Meenakshi Temple Society of Houston, in Pearland, is dedicated to the goddess Meenakshi and features a rajagopuram — the ornate entrance tower of South Indian temple architecture — that stands forty feet above the surrounding landscape. The Shree Venkateswara Temple in Bridgewater, New Jersey and its counterpart the Sri Venkateswara Temple of Greater Houston serve the Telugu-speaking Hindu community in each region.
+
+Georgia's Hindu community is anchored by the Bochasanwasi Akshar Purushottam Sanstha temple in Lilburn, one of the most beautiful temples in the South. Built from pink sandstone, it is a landmark of the Atlanta suburban landscape and hosts major festivals that draw from across the region.
+
+Florida has a substantial Hindu community in the Tampa Bay area and South Florida, with temples serving Gujarati, Tamil, Telugu, and other regional communities. The Hindu Temple of Florida in Tampa is among the most active.
+
+**The Midwest: Chicago and Beyond**
+
+Chicago's Hindu community is centered in the suburbs, and the Hindu Temple of Greater Chicago in Lemont is the anchor institution. The temple complex hosts some of the most elaborate festival celebrations in the Midwest, drawing thousands from across the Chicago metropolitan area. The Chicago suburbs also host Bochasanwasi Akshar Purushottam Sanstha institutions and temples serving specific regional communities.
+
+Ohio, Michigan, and Minnesota all have active Hindu communities centered in university cities and technology corridors. Columbus, Ohio has a Sri Venkateswara temple that serves the significant Hindu population in the area. Detroit and its suburbs have developed temple infrastructure for Gujarati, Tamil, and other communities over several decades.
+
+**The West Coast: California's Depth**
+
+California has the greatest depth of Hindu temple infrastructure outside the Northeast, reflecting the state's large and longstanding South Asian immigrant community.
+
+The Sri Venkateswara Temple in Malibu, on a hillside above the Pacific Ocean, is among the most dramatic temple settings in the country. The Sri Lanka Vihara in Los Angeles, the Shiva-Vishnu Temple of the Bay Area in Livermore, and dozens of temples serving specific regional and linguistic communities provide comprehensive coverage across the state.
+
+The BAPS Swaminarayan temple in Chino Hills, completed in 2012, is a major architectural and community landmark for Southern California's Hindu community. The temple's marble and sandstone construction, traditional craftsmanship, and extensive community programming make it one of the most visited Hindu sites in the Western United States.
+
+**Smaller States: The Reach of the Community**
+
+Even states with smaller Hindu populations have temple communities. Wyoming, Montana, and Alaska have active Hindu cultural organizations and prayer communities. Idaho's Boise area has a Hindu temple serving the region's South Asian professional community.
+
+The Hindu Temple Society of Alaska in Anchorage serves the state's Hindu community with regular worship and festivals. The Hindu Society of New Mexico in Albuquerque similarly serves a community that might surprise those who think of Hindu America as concentrated only in the coasts and major cities.
+
+**How to Find a Temple Near You**
+
+The Hindu Temples Directory at hindutemples.us provides a searchable database organized by state and city. The BAPS Swaminarayan Sanstha maintains its own directory of centers and temples. Most major temples have websites and social media presence that list worship times, upcoming festivals, and visitor information.
+
+**What to Expect When You Visit**
+
+Hindu temples welcome all visitors. You do not need to be Hindu, and you do not need to prepare theologically in advance. The practical expectations are simple: remove your shoes before entering the main hall, dress modestly with shoulders and knees covered, and follow the flow of the other visitors.
+
+The atmosphere during active worship — the bells, the incense, the chanting, the offerings of flowers and fire — is unlike anything else available in American public life. The prasad, the blessed food distributed after puja, is offered to everyone who is present. Receiving it with both hands cupped is the appropriate gesture.
+
+The temples that serve large communities are accustomed to curious visitors and will often have volunteers or staff who can answer questions. Approaching with genuine curiosity and basic respect is all that is required.
+
+The 1,000-plus temples that dot the American landscape are evidence of a community that has put down roots across the entire country, built institutions for the long term, and made itself a permanent and visible part of American religious life.`,
+  },
 ];
 
 export function getBlogPost(slug: string): BlogPost | undefined {
