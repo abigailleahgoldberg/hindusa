@@ -3,6 +3,7 @@ import { Instrument_Serif, Space_Grotesk } from "next/font/google";
 import "./globals.css";
 import { CartProvider } from "@/lib/cart-context";
 import Header from "@/components/Header";
+import ExitIntent from "@/components/ExitIntent";
 import Link from "next/link";
 
 const instrumentSerif = Instrument_Serif({
@@ -64,6 +65,7 @@ export default function RootLayout({
         <CartProvider>
           <Header />
           <main>{children}</main>
+          <ExitIntent />
           <footer
             style={{
               backgroundColor: "var(--dark)",
