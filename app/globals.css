@@ -141,3 +141,70 @@ input, textarea, select {
   color: var(--text-secondary);
   max-width: 600px;
 }
+
+/* ============================================================
+   MOBILE RESPONSIVE
+   ============================================================ */
+
+p, h1, h2, h3, h4, h5, h6, span, div {
+  overflow-wrap: break-word;
+  word-break: break-word;
+}
+
+@media (max-width: 900px) {
+  /* Desktop nav hidden by header component */
+  main {
+    padding-bottom: 72px;
+  }
+
+  /* Hero */
+  section:first-of-type h1 {
+    font-size: clamp(2rem, 8vw, 3.5rem) !important;
+  }
+
+  /* All grids fall to 1 col */
+  [style*="repeat(auto-fill"] {
+    grid-template-columns: 1fr !important;
+  }
+  [style*="repeat(auto-fit"] {
+    grid-template-columns: 1fr !important;
+  }
+
+  /* Stats dark section */
+  [style*="minmax(200px"] {
+    grid-template-columns: 1fr 1fr !important;
+  }
+
+  /* Newsletter form */
+  form[style*="gap:"] {
+    flex-direction: column !important;
+  }
+  form input[type="email"] {
+    border-right: 2px solid var(--dark) !important;
+    min-width: unset !important;
+    width: 100% !important;
+  }
+
+  /* Section padding */
+  section[style*="5rem 1.5rem"] {
+    padding: 3rem 1rem !important;
+  }
+  section[style*="4rem 1.5rem"] {
+    padding: 2.5rem 1rem !important;
+  }
+}
+
+@media (max-width: 480px) {
+  [style*="minmax(200px"] {
+    grid-template-columns: 1fr !important;
+  }
+  [style*="minmax(280px"] {
+    grid-template-columns: 1fr !important;
+  }
+  [style*="minmax(260px"] {
+    grid-template-columns: 1fr !important;
+  }
+  [style*="minmax(300px"] {
+    grid-template-columns: 1fr !important;
+  }
+}
