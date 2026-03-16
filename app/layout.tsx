@@ -34,12 +34,14 @@ export const metadata: Metadata = {
     title: "HindUSA — Hindu-American Pride and Culture",
     description:
       "Hindu-American pride gear, culture, and community. Celebrating the dharma that built this nation alongside the democracy that protects it.",
+    images: [{ url: "https://hindusa.com/og-image.png" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "HindUSA — Hindu-American Pride and Culture",
     description:
       "Hindu-American pride gear, culture, and community.",
+    images: ["https://hindusa.com/og-image.png"],
   },
   alternates: {
     canonical: 'https://hindusa.com',
@@ -77,6 +79,52 @@ export default function RootLayout({
           "@type": "WebSite",
           "name": "HindUSA",
           "url": "https://hindusa.com"
+        }) }} />
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Is this cultural appropriation?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "It is run by and for Hindu Americans. The gear is made to be worn by people who are proud of their heritage — not as a costume, not as an aesthetic trend. If you're Hindu, this is yours. If you're not Hindu but you love someone who is, gifting it is an act of love, not appropriation."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Are you affiliated with any specific Hindu sect or organization?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "No. Hinduism is a vast tradition with no central authority, no single pope, no official orthodoxy. HindUSA celebrates the breadth of that tradition — from Vaishnavism to Shaivism to Shaktism to the philosophical schools. We don't represent any one lineage. We represent Hindu-American identity in its full diversity."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "How do you ensure respectful treatment of Hindu traditions?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "By involving the community in everything we do. By learning continuously. By treating Hindu culture as the profound and ancient tradition it is — not as content, not as branding. If we ever get it wrong, tell us. We're listening."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Where is the merchandise produced?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Through US-based print-on-demand production via Printful. No minimum orders, no warehouse inventory, no waste. When you buy, it's made for you."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What percentage of Hindus in the US are American-born?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "About 36% of Hindu Americans are US-born — a number that is growing rapidly as the first large wave of Indian immigrants' children come of age. This is the generation HindUSA is largely built for: people who are fully American and fully Hindu, who don't want to choose between identities."
+              }
+            }
+          ]
         }) }} />
       </head>
       <body>
@@ -263,6 +311,7 @@ export default function RootLayout({
                 <a href="https://www.vedicsciences.net" target="_blank" rel="noopener noreferrer" style={{ color: "rgba(255,248,240,0.4)", fontSize: "0.8125rem", textDecoration: "none" }}>Vedic Sciences →</a>
                 <a href="https://www.sacred-texts.com/hin/" target="_blank" rel="noopener noreferrer" style={{ color: "rgba(255,248,240,0.4)", fontSize: "0.8125rem", textDecoration: "none" }}>Sacred Hindu Texts →</a>
               </div>
+              <p style={{ fontSize: "0.75rem", color: "rgba(255,248,240,0.25)", marginTop: "12px" }}>Last updated: March 2026</p>
             </div>
           </footer>
         </CartProvider>
