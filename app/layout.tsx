@@ -67,6 +67,7 @@ export default function RootLayout({
       className={`${instrumentSerif.variable} ${spaceGrotesk.variable}`}
     >
       <head>
+        <link rel="manifest" href="/site.webmanifest" />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
           "@context": "https://schema.org",
           "@type": "Organization",

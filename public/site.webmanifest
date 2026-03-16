@@ -1,0 +1,10 @@
+{
+  "name": "Hindusa",
+  "short_name": "Hindusa",
+  "description": "Connecting Hindu culture and American life. News, culture, and community.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FF9933",
+  "theme_color": "#FF9933",
+  "icons": [{ "src": "/favicon.ico", "sizes": "any", "type": "image/x-icon" }]
+}
