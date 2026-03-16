@@ -3,16 +3,124 @@
 import { useState } from "react";
 import { getDailyVerse } from "@/app/data/verses";
 
+async function shareVerseAsImage(verseText: string, reference: string, theme: string) {
+  const canvas = document.createElement("canvas");
+  canvas.width = 1080;
+  canvas.height = 1080;
+  const ctx = canvas.getContext("2d");
+  if (!ctx) return;
+
+  const accentColor = "#FF9933";
+  const siteUrl = "hindusa.com";
+
+  // Background
+  ctx.fillStyle = "#FFF8F0";
+  ctx.fillRect(0, 0, 1080, 1080);
+
+  // Top accent bar
+  ctx.fillStyle = accentColor;
+  ctx.fillRect(0, 0, 1080, 8);
+
+  // Theme badge
+  ctx.fillStyle = accentColor;
+  ctx.font = "700 22px sans-serif";
+  ctx.textAlign = "center";
+  ctx.fillText(theme.toUpperCase(), 540, 78);
+
+  // Verse text — word wrap with vertical centering
+  const maxWidth = 880;
+  const lineHeight = 62;
+  ctx.font = "italic 42px Georgia, serif";
+  const fullText = "\u201C" + verseText + "\u201D";
+  const allWords = fullText.split(" ");
+  const lines: string[] = [];
+  let line = "";
+  for (const word of allWords) {
+    const testLine = line + word + " ";
+    if (ctx.measureText(testLine).width > maxWidth && line !== "") {
+      lines.push(line.trim());
+      line = word + " ";
+    } else {
+      line = testLine;
+    }
+  }
+  if (line.trim()) lines.push(line.trim());
+
+  const totalTextHeight = lines.length * lineHeight;
+  const zoneTop = 120;
+  const zoneBottom = 890;
+  const startY = Math.round((zoneTop + zoneBottom) / 2 - totalTextHeight / 2 + lineHeight * 0.75);
+
+  ctx.fillStyle = "#1A1A1A";
+  ctx.textAlign = "center";
+  let y = startY;
+  for (const l of lines) {
+    ctx.fillText(l, 540, y);
+    y += lineHeight;
+  }
+
+  // Reference
+  ctx.fillStyle = accentColor;
+  ctx.font = "700 28px sans-serif";
+  ctx.fillText(reference, 540, y + 64);
+
+  // Bottom divider
+  ctx.fillStyle = "#E8E0D8";
+  ctx.fillRect(390, 960, 300, 1);
+
+  // Site branding
+  ctx.fillStyle = "#999999";
+  ctx.font = "400 20px sans-serif";
+  ctx.fillText(siteUrl, 540, 1000);
+
+  // Bottom accent bar
+  ctx.fillStyle = accentColor;
+  ctx.fillRect(0, 1072, 1080, 8);
+
+  canvas.toBlob(async (blob) => {
+    if (!blob) return;
+    const file = new File([blob], "daily-verse.png", { type: "image/png" });
+    if (navigator.share && navigator.canShare({ files: [file] })) {
+      try {
+        await navigator.share({ files: [file], title: reference, text: verseText });
+      } catch {
+        downloadBlob(blob);
+      }
+    } else {
+      downloadBlob(blob);
+    }
+  }, "image/png");
+}
+
+function downloadBlob(blob: Blob) {
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement("a");
+  a.href = url;
+  a.download = "daily-verse.png";
+  a.click();
+  URL.revokeObjectURL(url);
+}
+
 export default function DailyVersePage() {
   const verse = getDailyVerse();
   const [copied, setCopied] = useState(false);
+  const [sharing, setSharing] = useState(false);
+
+  const reference = `${verse.source}${verse.chapter ? `, ${verse.chapter}:${verse.verse}` : ""}`;
 
   const handleCopy = () => {
-    const text = `"${verse.text}"\n\n— ${verse.source}${verse.chapter ? `, ${verse.chapter}:${verse.verse}` : ""}`;
+    const text = `"${verse.text}"\n\n— ${reference}`;
     navigator.clipboard.writeText(text).then(() => {
       setCopied(true);
       setTimeout(() => setCopied(false), 2000);
     });
+  };
+
+  const handleShareImage = async () => {
+    if (sharing) return;
+    setSharing(true);
+    await shareVerseAsImage(verse.text, reference, verse.theme);
+    setSharing(false);
   };
 
   return (
@@ -99,31 +207,59 @@ export default function DailyVersePage() {
         </div>
       </div>
 
-      <button
-        onClick={handleCopy}
-        style={{
-          backgroundColor: copied ? "var(--burgundy)" : "var(--saffron)",
-          color: "var(--dark)",
-          border: "none",
-          padding: "0.875rem 2rem",
-          fontSize: "0.8rem",
-          fontWeight: 700,
-          letterSpacing: "0.08em",
-          textTransform: "uppercase",
-          cursor: "pointer",
-          display: "flex",
-          alignItems: "center",
-          gap: "0.5rem",
-          fontFamily: "var(--font-body), sans-serif",
-          transition: "background-color 0.2s",
-        }}
-      >
-        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
-          <rect x="9" y="9" width="13" height="13" rx="2" ry="2"/>
-          <path d="M5 15H4a2 2 0 01-2-2V4a2 2 0 012-2h9a2 2 0 012 2v1"/>
-        </svg>
-        {copied ? "Copied!" : "Copy Verse"}
-      </button>
+      <div style={{ display: "flex", gap: "0.75rem", flexWrap: "wrap" }}>
+        <button
+          onClick={handleCopy}
+          style={{
+            backgroundColor: copied ? "var(--burgundy)" : "var(--saffron)",
+            color: "var(--dark)",
+            border: "none",
+            padding: "0.875rem 2rem",
+            fontSize: "0.8rem",
+            fontWeight: 700,
+            letterSpacing: "0.08em",
+            textTransform: "uppercase",
+            cursor: "pointer",
+            display: "flex",
+            alignItems: "center",
+            gap: "0.5rem",
+            fontFamily: "var(--font-body), sans-serif",
+            transition: "background-color 0.2s",
+          }}
+        >
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
+            <rect x="9" y="9" width="13" height="13" rx="2" ry="2"/>
+            <path d="M5 15H4a2 2 0 01-2-2V4a2 2 0 012-2h9a2 2 0 012 2v1"/>
+          </svg>
+          {copied ? "Copied!" : "Copy Verse"}
+        </button>
+        <button
+          onClick={handleShareImage}
+          disabled={sharing}
+          style={{
+            backgroundColor: "transparent",
+            color: "var(--saffron)",
+            border: "2px solid var(--saffron)",
+            padding: "0.875rem 2rem",
+            fontSize: "0.8rem",
+            fontWeight: 700,
+            letterSpacing: "0.08em",
+            textTransform: "uppercase",
+            cursor: sharing ? "wait" : "pointer",
+            display: "flex",
+            alignItems: "center",
+            gap: "0.5rem",
+            fontFamily: "var(--font-body), sans-serif",
+            transition: "all 0.2s",
+            opacity: sharing ? 0.6 : 1,
+          }}
+        >
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+            <path d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-8l-4-4m0 0L8 8m4-4v12"/>
+          </svg>
+          {sharing ? "Generating..." : "Share as Image"}
+        </button>
+      </div>
 
       <div style={{
         marginTop: "4rem",
