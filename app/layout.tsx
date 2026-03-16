@@ -312,6 +312,14 @@ export default function RootLayout({
                 <a href="https://www.vedicsciences.net" target="_blank" rel="noopener noreferrer" style={{ color: "rgba(255,248,240,0.4)", fontSize: "0.8125rem", textDecoration: "none" }}>Vedic Sciences →</a>
                 <a href="https://www.sacred-texts.com/hin/" target="_blank" rel="noopener noreferrer" style={{ color: "rgba(255,248,240,0.4)", fontSize: "0.8125rem", textDecoration: "none" }}>Sacred Hindu Texts →</a>
               </div>
+              <div style={{ display: "flex", gap: "20px", flexWrap: "wrap", alignItems: "center", paddingTop: "12px", borderTop: "1px solid rgba(255,153,0,0.1)", marginTop: "12px" }}>
+                <span style={{ fontSize: "0.7rem", fontWeight: 700, color: "rgba(255,153,0,0.6)", letterSpacing: "0.1em", textTransform: "uppercase" }}>Legal</span>
+                <a href="/privacy" style={{ color: "rgba(255,248,240,0.4)", fontSize: "0.8125rem", textDecoration: "none" }}>Privacy Policy</a>
+                <a href="/terms" style={{ color: "rgba(255,248,240,0.4)", fontSize: "0.8125rem", textDecoration: "none" }}>Terms of Service</a>
+                <a href="/disclaimer" style={{ color: "rgba(255,248,240,0.4)", fontSize: "0.8125rem", textDecoration: "none" }}>Disclaimer</a>
+                <a href="/dmca" style={{ color: "rgba(255,248,240,0.4)", fontSize: "0.8125rem", textDecoration: "none" }}>DMCA</a>
+                <a href="/contact" style={{ color: "rgba(255,248,240,0.4)", fontSize: "0.8125rem", textDecoration: "none" }}>Contact</a>
+              </div>
               <p style={{ fontSize: "0.75rem", color: "rgba(255,248,240,0.25)", marginTop: "12px" }}>Last updated: March 2026</p>
             </div>
           </footer>
