@@ -41,6 +41,9 @@ export const metadata: Metadata = {
     description:
       "Hindu-American pride gear, culture, and community.",
   },
+  alternates: {
+    canonical: 'https://hindusa.com',
+  },
 };
 
 const networkLinks = [
@@ -61,6 +64,21 @@ export default function RootLayout({
       lang="en"
       className={`${instrumentSerif.variable} ${spaceGrotesk.variable}`}
     >
+      <head>
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "name": "HindUSA",
+          "url": "https://hindusa.com",
+          "description": "Hindu-American pride gear, culture, and community. Celebrating the dharma that built this nation alongside the democracy that protects it."
+        }) }} />
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "WebSite",
+          "name": "HindUSA",
+          "url": "https://hindusa.com"
+        }) }} />
+      </head>
       <body>
         <CartProvider>
           <Header />
@@ -239,6 +257,12 @@ export default function RootLayout({
               >
                 Om Shanti.
               </p>
+              <div style={{ width: "100%", display: "flex", gap: "20px", flexWrap: "wrap", alignItems: "center", paddingTop: "12px" }}>
+                <span style={{ fontSize: "0.7rem", fontWeight: 700, color: "rgba(255,153,0,0.6)", letterSpacing: "0.1em", textTransform: "uppercase" }}>Dharma Resources</span>
+                <a href="https://www.hinduamerican.org" target="_blank" rel="noopener noreferrer" style={{ color: "rgba(255,248,240,0.4)", fontSize: "0.8125rem", textDecoration: "none" }}>Hindu American Foundation →</a>
+                <a href="https://www.vedicsciences.net" target="_blank" rel="noopener noreferrer" style={{ color: "rgba(255,248,240,0.4)", fontSize: "0.8125rem", textDecoration: "none" }}>Vedic Sciences →</a>
+                <a href="https://www.sacred-texts.com/hin/" target="_blank" rel="noopener noreferrer" style={{ color: "rgba(255,248,240,0.4)", fontSize: "0.8125rem", textDecoration: "none" }}>Sacred Hindu Texts →</a>
+              </div>
             </div>
           </footer>
         </CartProvider>
