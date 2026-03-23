@@ -10,7 +10,50 @@ export interface BlogPost {
   content: string;
 }
 
-export const blogPosts: BlogPost[] = [
+export const blogPosts: BlogPost[
+  {
+    slug: "ram-navami-2026-birth-of-lord-rama",
+    title: "Ram Navami 2026: Celebrating the Birth of Lord Rama",
+    subtitle: "The significance of Ram Navami, how it is observed, and what the life of Rama teaches",
+    date: "2026-03-23",
+    author: "HindUSA Editorial",
+    readTime: "5 min read",
+    category: "Festivals",
+    excerpt: "Ram Navami marks the birth of Lord Rama, the seventh avatar of Vishnu and the hero of the Ramayana. Here is the significance of the holiday and how Hindus observe it around the world.",
+    content: `Ram Navami falls on the ninth day of the bright half of the Hindu month of Chaitra, which typically lands in March or April on the Gregorian calendar. It is the celebration of the birth of Lord Rama, the seventh avatar of Vishnu and the central figure of the Ramayana, one of the two great Sanskrit epics of Hinduism.
+
+The Ramayana is the story of Rama\'s life: his childhood as the ideal prince, his marriage to Sita, his exile from the kingdom of Ayodhya, the abduction of Sita by the demon king Ravana, the war to rescue her, and his eventual return and coronation. The story has been told and retold for thousands of years in every Indian language and in many languages beyond South Asia. It is a story of dharma, the right way of living, embodied in a figure who is often described as Maryada Purushottam, the ideal or perfect man.
+
+Rama is revered not primarily for supernatural power but for his adherence to righteousness under every kind of pressure. He keeps his promises when keeping them costs him everything. He treats everyone, from kings to forest dwellers to outcasts, with dignity. He acts from principle rather than from self-interest. These qualities are what his devotees seek to understand and embody.
+
+The observance of Ram Navami varies by region and by family tradition. In many households the day begins before sunrise with a bath and prayers. Fasting is common, either a complete fast or a diet that excludes grains. Temples hold special pujas throughout the day, and the celebration often includes a noon ceremony marking the hour of Rama\'s birth. The reading or recitation of the Ramayana, particularly the Ramcharitmanas of Tulsidas, is central to many observances.
+
+In temple worship, small statues of the infant Rama are placed in cradles and rocked, a practice called jhulan. In many places a Rath Yatra, a procession with a chariot carrying images of Rama, Sita, Lakshmana, and Hanuman, moves through the streets.
+
+In the Hindu diaspora, Ram Navami is observed in temples and community centers across the United States, United Kingdom, and wherever large Hindu communities have settled. The festival carries the same meaning in a different context: a day to remember and honor an ideal of human life that is worth striving toward.`
+  },
+  {
+    slug: "hindu-american-experience-practicing-faith-in-the-west",
+    title: "The Hindu American Experience: Practicing an Ancient Faith in a Modern Country",
+    subtitle: "What it means to carry a living tradition to a new place and keep it alive",
+    date: "2026-03-23",
+    author: "HindUSA Editorial",
+    readTime: "6 min read",
+    category: "Community",
+    excerpt: "Hinduism is one of the oldest living religions in the world. Here is what it looks like to practice it as an American, in a country where it is not the default.",
+    content: `Hinduism arrived in the United States in significant numbers in the second half of the twentieth century, carried by immigrants from India, Nepal, and the Hindu diaspora communities of the Caribbean, Fiji, and East Africa. It arrived without a centralized institutional structure, without a missionary tradition, and without the cultural infrastructure that the country had built for Christianity and, to some extent, for Judaism. It arrived as something that families carried in their practices, their language, their food, and their relationships.
+
+The result is a form of religious life that is notably different from what observant Hindus experience in India or Nepal, and also different from what any other religion in America looks like. Hinduism in America is more self-conscious than Hinduism in India because it has to be. When the surrounding culture does not reinforce your practices, you have to choose them actively.
+
+The temple has become the center of Hindu American life in a way that it is not always the center of Hindu life in South Asia, where religious practice often happens at home shrines and during festivals that the entire community observes. In America, the temple serves functions that the extended family and the neighborhood served in the country of origin. It is where children learn Sanskrit chants, where festivals are celebrated with community, where elders are recognized and newcomers are welcomed. The temple is the institution that holds the community together.
+
+The question of transmission is one that every Hindu American family navigates. How do you pass on a faith that is experiential and lived rather than primarily doctrinal? You cannot just explain Hinduism to a child who has grown up in America. You have to create the experiences that make it meaningful. That means the festivals, the pujas, the stories, the food, the music, the temple visits, the pilgrimage when possible, the conversations about what everything means.
+
+The generation of Hindu Americans born in the United States is doing something their immigrant parents could not fully anticipate. They are asking what their tradition means to them, on their own terms, in their own context. The answers they are finding are varied. Some are deeply traditional. Some are syncretic. Some are cultural rather than religious. All of them are genuinely engaged with a tradition that is old enough to hold all of these variations.
+
+The ancient tradition survives in a new place because people decide, each generation, that it is worth carrying. That choice is the tradition continuing.`
+  },
+] = [
   {
     slug: "diwali-in-america",
     title: "Diwali in America: How Hindu Families Celebrate the Festival of Lights",
