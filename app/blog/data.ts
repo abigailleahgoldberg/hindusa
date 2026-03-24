@@ -53,7 +53,6 @@ The generation of Hindu Americans born in the United States is doing something t
 
 The ancient tradition survives in a new place because people decide, each generation, that it is worth carrying. That choice is the tradition continuing.`
   },
-] = [
   {
     slug: "diwali-in-america",
     title: "Diwali in America: How Hindu Families Celebrate the Festival of Lights",
