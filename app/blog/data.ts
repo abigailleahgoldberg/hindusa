@@ -10,7 +10,7 @@ export interface BlogPost {
   content: string;
 }
 
-export const blogPosts: BlogPost[
+export const blogPosts: BlogPost[] = [
   {
     slug: "ram-navami-2026-birth-of-lord-rama",
     title: "Ram Navami 2026: Celebrating the Birth of Lord Rama",

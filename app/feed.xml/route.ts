@@ -1,5 +1,5 @@
 import { NextResponse } from 'next/server';
-import { posts } from '../blog/data';
+import { blogPosts as posts } from '../blog/data';
 
 export async function GET() {
   const siteUrl = 'https://hindusa.vercel.app';
