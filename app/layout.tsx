@@ -34,14 +34,14 @@ export const metadata: Metadata = {
     title: "HindUSA — Hindu-American Pride and Culture",
     description:
       "Hindu-American pride gear, culture, and community. Celebrating the dharma that built this nation alongside the democracy that protects it.",
-    images: [{ url: "https://hindusa.com/og-image.png" }],
+    images: [{ url: "/opengraph-image" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "HindUSA — Hindu-American Pride and Culture",
     description:
       "Hindu-American pride gear, culture, and community.",
-    images: ["https://hindusa.com/og-image.png"],
+    images: ["/opengraph-image"],
   },
   alternates: {
     canonical: 'https://hindusa.com',
