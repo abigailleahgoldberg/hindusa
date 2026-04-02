@@ -81,8 +81,20 @@ export default async function BlogPostPage({ params }: Props) {
     );
   });
 
+  const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": post.title,
+    "description": post.excerpt,
+    "datePublished": post.date,
+    "author": { "@type": "Organization", "name": "HindUSA" },
+    "publisher": { "@type": "Organization", "name": "HindUSA", "url": "https://hindusa.com" }
+  };
+
   return (
-    <div style={{ maxWidth: 780, margin: "0 auto", padding: "4rem 1.5rem 6rem" }}>
+    <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
+      <div style={{ maxWidth: 780, margin: "0 auto", padding: "4rem 1.5rem 6rem" }}>
       <div style={{ marginBottom: "0.75rem" }}>
         <Link href="/blog" style={{
           fontSize: "0.8125rem",
@@ -230,5 +242,6 @@ export default async function BlogPostPage({ params }: Props) {
         </div>
       </div>
     </div>
+    </>
   );
 }
